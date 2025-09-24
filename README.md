@@ -4,7 +4,7 @@
 
 ## About
 
-Welcome to Cat Collector, your first venture into building a full CRUD application using Django! 
+**Welcome to Cat Collector, your first venture into building a full CRUD application using Django!** 
 
 This project is an excellent example of what you’ll be capable of creating for future full-stack Django projects. 
 
