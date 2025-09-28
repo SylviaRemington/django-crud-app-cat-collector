@@ -15,7 +15,8 @@ def home(request):
 # Define an about view function
 def about(request):
     # About page
-    return HttpResponse('<h1>About Me:</h1><h2>My name is Sylvia and I love to dance!</h2>')
+    # return HttpResponse('<h1>About Me:</h1><h2>My name is Sylvia and I love to dance!</h2>')
+    return render(request, 'about.html')
 
 
 
