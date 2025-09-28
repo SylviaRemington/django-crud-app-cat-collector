@@ -12,7 +12,36 @@ def home(request):
     # This is the view function responding to your http resquest. 
     # HttpResponse object is the simplest way to return content in Django.
     # Home page - Send a simple html response
-    return HttpResponse('<h1>Hello ᓚᘏᗢ</h1>')
+    # return HttpResponse('<h1>Hello ᓚᘏᗢ</h1>')
+    # return render(request, '')
+    # return render(request, 'templates')
+    # return render(request, 'home.html') - Changed to index.html so that easier to find by Django program.
+    return render(request, 'index.html')
+
+    #GETTING ERROR MESSAGE ON PAGE FOR THIS -- SEE BELOW
+
+    '''
+IsADirectoryError at /
+[Errno 21] Is a directory: '/Users/sylviaremington/code/ga/lectures/django-crud-app-cat-collector/main_app/templates'
+Request Method:	GET
+Request URL:	http://127.0.0.1:8000/
+Django Version:	5.2.6
+Exception Type:	IsADirectoryError
+Exception Value:	
+[Errno 21] Is a directory: '/Users/sylviaremington/code/ga/lectures/django-crud-app-cat-collector/main_app/templates'
+Exception Location:	/Users/sylviaremington/.local/share/virtualenvs/django-crud-app-cat-collector-YF89FG1q/lib/python3.11/site-packages/django/template/loaders/filesystem.py, line 22, in get_contents
+Raised during:	main_app.views.home
+Python Executable:	/Users/sylviaremington/.local/share/virtualenvs/django-crud-app-cat-collector-YF89FG1q/bin/python3
+Python Version:	3.11.13
+Python Path:	
+['/Users/sylviaremington/code/ga/lectures/django-crud-app-cat-collector',
+ '/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python311.zip',
+ '/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11',
+ '/opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/lib-dynload',
+ '/Users/sylviaremington/.local/share/virtualenvs/django-crud-app-cat-collector-YF89FG1q/lib/python3.11/site-packages']
+Server time:	Sun, 28 Sep 2025 18:21:49 +0000
+    '''
+
 
 #----------------------------------------------------------------------------------------
 
