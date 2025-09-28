@@ -34,9 +34,21 @@ urlpatterns = [
     # cats -> url, view, template
     # cakes -> url, view, template
     # cookies -> url, view, template
+    # plus add a navigation bar with links to all other pages on each page
 
     path('cats/', views.cats, name='cats'),
     
+    #----------------------------------------------------------------------------------------
+
+    path('cakes/', views.cakes, name='cakes'),
+
+    #----------------------------------------------------------------------------------------
+
+    path('cookies/', views.cookies, name='cookies'), 
+
+    #----------------------------------------------------------------------------------------
+
+
 
 
 

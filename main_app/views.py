@@ -35,10 +35,21 @@ def dresses(request):
 
 #----------------------------------------------------------------------------------------
 
-#create url for cats page
+#create url & function for cats page
 #defining a cats view function
 def cats(request):
     return render(request, 'cats.html')
 
 #----------------------------------------------------------------------------------------
 
+#defining cakes view function - creating function for cakes page
+def cakes(request):
+    return render(request, 'cakes.html')
+
+#----------------------------------------------------------------------------------------
+
+#defining cookies view function - creating function for cookies page
+def cookies(request):
+    return render(request, 'cookies.html')
+
+#----------------------------------------------------------------------------------------
