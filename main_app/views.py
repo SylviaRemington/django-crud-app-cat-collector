@@ -11,4 +11,9 @@ def home(request):
     # HttpResponse object is the simplest way to return content in Django.
     return HttpResponse('<h1>Hello ᓚᘏᗢ</h1>')
 
+# Define an about view function
+def about(request):
+    return HttpResponse('<h2>About Me: My name is Sylvia and I love to dance!</h2>')
+
+
 
