@@ -29,6 +29,15 @@ urlpatterns = [
 
     #----------------------------------------------------------------------------------------
 
+    #In class practice of routes, ets:
+
+    # cats -> url, view, template
+    # cakes -> url, view, template
+    # cookies -> url, view, template
+
+    path('cats/', views.cats, name='cats'),
+    
+
 
 
 

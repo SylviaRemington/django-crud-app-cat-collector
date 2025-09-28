@@ -26,11 +26,19 @@ def about(request):
 
 #create a url for dresses page - done
 #create a view for dresses page - done
-#create a template for dresses page
-#return it as a render inside the view (dresses function)
+#create a template for dresses page - done 
+#return it as a render inside the view (dresses function) - done
 
 #Define a dresses view function
 def dresses(request):
     return render(request, 'dresses.html')
 
 #----------------------------------------------------------------------------------------
+
+#create url for cats page
+#defining a cats view function
+def cats(request):
+    return render(request, 'cats.html')
+
+#----------------------------------------------------------------------------------------
+
