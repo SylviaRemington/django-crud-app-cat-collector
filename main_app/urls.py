@@ -12,5 +12,9 @@ urlpatterns = [
     # that does not exist yet - making the server unhappy. We’ll remedy this with a new view in the next step.
     # The name='home' kwarg is technically optional but will come in handy for referencing the URL 
     # in other parts of the app, especially from within templates, so we will always use it.
-    
+
+    #The default route is going to be "home" and there's going to be a function inside views called home
+
+
+
 ]
