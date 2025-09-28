@@ -13,7 +13,7 @@ def home(request):
 
 # Define an about view function
 def about(request):
-    return HttpResponse('<h2>About Me: My name is Sylvia and I love to dance!</h2>')
+    return HttpResponse('<h1>About Me:</h1><h2>My name is Sylvia and I love to dance!</h2>')
 
 
 
