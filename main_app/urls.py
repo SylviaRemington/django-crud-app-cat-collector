@@ -22,6 +22,11 @@ urlpatterns = [
     # SET UP THE ROUTE HERE / CREATE A FUNCTION INSIDE OF VIEWS.PY / RETURN A HTTP RESPONSE
     path('about/', views.about, name='about'),
 
+    #----------------------------------------------------------------------------------------
+
+    #Create a url for dresses page - Creating a route/path
+    path('dresses/', views.dresses, name='dresses'),
+
 
 
 
