@@ -27,6 +27,9 @@ urlpatterns = [
     #Create a url for dresses page - Creating a route/path
     path('dresses/', views.dresses, name='dresses'),
 
+    #----------------------------------------------------------------------------------------
+
+
 
 
 
